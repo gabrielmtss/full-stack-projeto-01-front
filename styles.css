@@ -5,10 +5,16 @@ body {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  background-color: black;
 }
+
 main {
   flex: 1;
   margin-bottom: 2rem;
+}
+
+main h1 {
+  color: white;
 }
 
 header, footer {
