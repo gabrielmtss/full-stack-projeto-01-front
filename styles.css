@@ -30,3 +30,9 @@ header, footer {
   height: auto !important;
   margin: 0 auto;
 }
+
+.card-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

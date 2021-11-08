@@ -21,13 +21,14 @@ const getJogos = async () => {
       'beforeend',
       `
         <div class="col">
-            <div class="card">
+            <div class="card text-center">
             <img src="${jogo.imagem}" class="card-img-top mt-3" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${jogo.titulo}</h5>
-                <span class="badge bg-primary">${jogo.genero}</span>
-                <p class="card-text">Nota ${jogo.nota}</p>
-                <p class="card-text">${jogo.jogado}</p>
+                <div class="card-info">
+                  <h5><span class="badge bg-dark m-3">${jogo.genero}</span></h5>
+                  <h3 class="card-text m-3">Nota ${jogo.nota}</h3>
+                </div>
                 <div>
                     <button class="btn btn-primary" onclick="editJogo('${jogo.id}')">Editar</button>
                     <button class="btn btn-danger" onclick="deleteJogo('${jogo.id}')">Excluir</button>
