@@ -9,8 +9,9 @@ body {
 }
 
 header a {
-  font-size: 3rem;
-  color: white;
+  font-size: 2rem !important;
+  color: black !important;
+  
 }
 
 main {
